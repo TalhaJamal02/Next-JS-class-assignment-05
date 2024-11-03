@@ -5,7 +5,7 @@ export default function Home() {
   return (
     <div>
       <Header />
-      <div className="flex h-screen items-center justify-around"> {/* Changed to flexbox layout */}
+      <div className="flex my-20 items-center justify-around">
 
         {/* Left Side (Text) */}
         <div className="p-6 text-start max-w-sm">
@@ -21,20 +21,20 @@ export default function Home() {
         </div>
 
         {/* Right Side (Images) */}
-        <div className="relative flex justify-end"> {/* Align images to the right */}
+        <div className="relative flex justify-end"> 
           <Image
             src="/images/border.png"
             alt="Image"
             width={290}
             height={290}
-            className="absolute top-5 right-4 z-50" // Positioning for the border image
+            className="absolute top-5 right-4 z-50" 
           />
           <Image
             src="/images/women.png"
             alt="Image Of Women"
             width={321}
             height={450}
-            className="relative" // Ensure it appears on top of the border image
+            className="relative"
           />
         </div>
 
