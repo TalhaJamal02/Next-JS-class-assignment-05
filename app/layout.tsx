@@ -2,6 +2,11 @@ import type { Metadata } from "next";
 import { Rye, Libre_Bodoni, Nunito_Sans } from 'next/font/google';
 import "./globals.css";
 
+const nunitoSans = Nunito_Sans({
+  weight: ['400', '700'],
+  subsets: ['latin'],
+});
+
 const rye = Rye({
   weight: '400',
   subsets: ['latin'],
@@ -25,7 +30,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${rye.className} ${libreBodoni.className}`}
+        className={`${rye.className} ${libreBodoni.className}  ${nunitoSans.className}`}
       >
         {children}
       </body>
