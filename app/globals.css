@@ -19,3 +19,16 @@ body {
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+.rye-font {
+  font-family: 'Rye', cursive;
+}
+
+.libre-bodoni-font {
+  font-family: 'Libre Bodoni', serif;
+}
+
+.nunito-sans-font {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
